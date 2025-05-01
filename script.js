@@ -186,3 +186,8 @@ function navigateToSection(direction, currentIndex) {
       alert(direction === 'next' ? 'You are at the last video!' : 'You are at the first video!');
   }
 }
+
+// Page navigation
+function navigate(targetPage) {
+  window.location.href = targetPage;
+}
